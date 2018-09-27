@@ -1,10 +1,10 @@
 # This image is designed to be run on a RaspberryPi and provides video steaming (via mjpg) from the PI camera. 
 # To invoke it on the PI, you must share the camera device with the docker image, you should launch it like this: 
-# docker run -p 8080:8080 --device=/dev/video0 721466574657.dkr.ecr.us-east-1.amazonaws.com/pi-streamer
+# docker run -p 8080:8080 --device=/dev/video0 721466574657.dkr.ecr.us-east-1.amazonaws.com//dockerpi:mjpeg-streamer.latest
 
 
-# To build a new version of this image: `docker build -t 721466574657.dkr.ecr.us-east-1.amazonaws.com/pi-streamer:latest .`
-# To publish it" `docker push 721466574657.dkr.ecr.us-east-1.amazonaws.com/pi-streamer:latest`
+# To build a new version of this image: `docker build -t 721466574657.dkr.ecr.us-east-1.amazonaws.com//dockerpi:mjpeg-streamer.latest .`
+# To publish it" `docker push 721466574657.dkr.ecr.us-east-1.amazonaws.com/dockerpi:mjpeg-streamer.latest`
 
 # Reference the following urls for running mjpg streams on a raspberry-pi
 # https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-MJPEG-Streamer-Install-&-Setup-&-FFMpeg-Recording
